@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "PriceTrackr-Client:build:production"
+              "buildTarget": "PriceTrackr-Client:build:production"
             },
             "development": {
-              "browserTarget": "PriceTrackr-Client:build:development"
+              "buildTarget": "PriceTrackr-Client:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PriceTrackr-Client:build"
+            "buildTarget": "PriceTrackr-Client:build"
           }
         },
         "test": {
